@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/stalls"
+        android:icon="@drawable/stall"
+        android:title="Stalls" />
+
+    <item
+        android:id="@+id/mystalls"
+        android:icon="@drawable/mystalls"
+        android:title="My stalls" />
+    <item
+        android:id="@+id/Requests"
+        android:icon="@drawable/requests"
+        android:title="Requests" />
+
+</menu>

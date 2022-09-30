@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".poststall">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <EditText
+                android:id="@+id/stallowner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/editbg"
+                android:hint="Land owner"
+                android:padding="10dp"
+                android:textColor="@color/blue_main"
+                android:textColorHint="@color/grey" />
+
+            <EditText
+                android:id="@+id/landno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/editbg"
+                android:hint="Land Number"
+                android:padding="10dp"
+                android:textColor="@color/blue_main"
+                android:textColorHint="@color/grey" />
+            <EditText
+                android:id="@+id/stallno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/editbg"
+                android:hint="Stall number"
+                android:padding="10dp"
+                android:textColor="@color/blue_main"
+                android:textColorHint="@color/grey" />
+
+            <EditText
+                android:id="@+id/stalltype"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/editbg"
+                android:hint="Stall Type"
+                android:padding="10dp"
+                android:textColor="@color/blue_main"
+                android:textColorHint="@color/grey" />
+
+            <EditText
+                android:id="@+id/stallsize"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/editbg"
+                android:hint="Stall Size"
+                android:padding="10dp"
+                android:textColor="@color/blue_main"
+                android:textColorHint="@color/grey" />
+
+            <EditText
+                android:id="@+id/stallrent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/editbg"
+                android:hint="Stall Rent"
+                android:padding="10dp"
+                android:textColor="@color/blue_main"
+                android:textColorHint="@color/grey" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/carddimg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:visibility="gone"
+                app:cardCornerRadius="20dp">
+
+                <ImageView
+                    android:id="@+id/stallimg"
+                    android:layout_width="150dp"
+                    android:layout_height="200dp"
+                    android:scaleType="fitXY" />
+            </androidx.cardview.widget.CardView>
+
+            <Button
+                android:id="@+id/pickstall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="@color/blue_main"
+                android:text="IMAGE"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/stallpost"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="@color/blue_main"
+                android:text="POST"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+
+    </ScrollView>
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:id="@+id/progressmebro"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" />
+</RelativeLayout>

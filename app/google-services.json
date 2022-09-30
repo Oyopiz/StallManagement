@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "395506610311",
+    "project_id": "stall-management-acd7c",
+    "storage_bucket": "stall-management-acd7c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:395506610311:android:e2d03b0ee139efbce5c822",
+        "android_client_info": {
+          "package_name": "com.rateme.stallmanagement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "395506610311-tedv6c50mveq9qeeui58ufqhoe9gr72k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-zeMT0N3WSYCHFvaWoJQC1rbUpDhTFQQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "395506610311-tedv6c50mveq9qeeui58ufqhoe9gr72k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
